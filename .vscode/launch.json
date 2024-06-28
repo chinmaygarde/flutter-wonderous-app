@@ -7,7 +7,14 @@
         {
             "name": "flutter-wonders-app",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "args": [
+                "--local-engine",
+                "android_debug_unopt_arm64",
+                "--local-engine-host",
+                "host_debug_unopt_arm64",
+                "--enable-impeller",
+            ]
         },
         {
             "name": "flutter-wonders-app (profile mode)",
